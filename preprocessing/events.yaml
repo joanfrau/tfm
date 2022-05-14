@@ -1,0 +1,156 @@
+events:
+  - Shot
+  - Pass
+  - Ball Recovery
+  - Block
+  - Dribble
+  - Foul Committed
+  - Foul Won
+  - Goal Keeper
+  - Injury Stoppage
+  - Substitution
+  - Miscontrol
+  - Clearance
+  - Duel
+  - 50/50
+  - Ball Receipt*
+  - Interception
+  - Bad Behaviour
+
+name_cols:
+  - body_part
+  - play_pattern
+  - player
+  - position
+  - possession_team
+  - team
+  - technique
+  - type
+  - height
+  - recipient
+  - outcome
+  - card
+
+common:
+  - id
+  - index
+  - period
+  - timestamp
+  - minute
+  - second
+  - possession
+  - possession_team
+  - play_pattern
+  - off_camera
+  - team
+  - player
+  - position
+  - location
+  - duration
+  - under_pressure
+
+shot:
+  - statsbomb_xg
+  - end_location
+  - key_pass_id
+  - body_part
+  - type
+  - outcome
+  - technique
+  - first_time
+  - follows_dribble
+  - redirect
+  - one_on_one
+  - open_goal
+  - deflected
+  - freeze_frame
+
+pass:
+  - recipient
+  - length
+  - angle
+  - height
+  - end_location
+  - outcome
+  - type
+  - body_part
+  - assisted_shot_id
+  - pass_backheel
+  - deflected
+  - miscommunication
+  - through_ball
+  - cross
+  - cut_back
+  - switch
+  - shot_assist
+  - goal_assist
+
+ball recovery:
+  - offensive
+  - recovery_failure
+
+block:
+  - outcome
+  - deflection
+  - offensive
+  - save_block
+  - out
+
+dribble:
+  - outcome
+  - overrun
+  - nutmeg
+
+foul committed:
+  - type
+  - offensive
+  - advantage
+  - card
+  - penalty
+
+foul won:
+  - defensive
+  - advantage
+  - penalty
+
+goal keeper:
+  - type
+  - outcome
+  - position
+  - body_part
+  - technique
+
+injury stoppage:
+  - in_chain
+
+substitution:
+  - replacement
+  - outcome
+
+miscontrol:
+  - aerial_won
+
+clearance:
+  - aerial_won
+
+duel:
+  - type
+  - outcome
+
+50/50:
+  - outcome
+
+ball receipt*:
+  - outcome
+
+interception:
+  - outcome
+
+bad behaviour:
+  - card
+
+matches_name_cols:
+  - away_team
+  - home_team
+  - competition
+  - season
